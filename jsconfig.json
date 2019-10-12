@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "checkJs": true,
+      // Point to the JSDoc typed sources when using modules from the ol package
+      "baseUrl": "./",
+    },
+    "include": [
+      "**/*.js",
+      "node_modules/leaflet/**/*.js"
+    ]
+  }
